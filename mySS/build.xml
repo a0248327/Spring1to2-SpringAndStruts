@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<project name="mySS" default="init" basedir=".">
+	<property name="mySS.home" value="." />
+	<property name="mySS.lib" value="${mySS.home}/WEB-INF/lib" />
+	<property name="mySS.jar" value="${mySS.home}/WEB-INF/lib" />
+	<property name="mySS.classes" value="${mySS.home}/WEB-INF/classes" />
+	<property name="tomcat.home" value="D\:/jakarta-tomcat-5.5.5" />
+	<property environment="myenv" />        
+	<property name="servletpath"  value="${myenv.CATALINA_HOME}" />
+	<!--<property file="build.properties" />-->
+	<path id="all">
+				<fileset dir="${mySS.lib}">
+					<include name="**/*.jar" />
+				</fileset>
+				
+				<fileset dir="${servletpath}/common/lib">
+					<include name="*.jar" />
+				</fileset>
+				<fileset dir="${mySS.home}/WEB-INF/src">
+								<include name="hibernate.cfg.xml" />
+							</fileset>
+			</path>	
+	<target name="init">
+		<path id="all1">
+			<fileset dir="${mySS.lib}">
+				<include name="**/*.jar" />
+			</fileset>
+			<fileset dir="${tomcat.home}/common/lib">
+				<include name="*.jar" />
+			</fileset>
+			<fileset dir="${mySS.home}/WEB-INF/src">
+							<include name="hibernate.cfg.xml" />
+						</fileset>
+		</path>	
+		<path id="test">
+					<fileset dir="${mySS.lib}">
+						<include name="**/*.jar" />
+					</fileset>
+				</path>	
+		<mkdir dir="${mySS.classes}" />
+	</target>
+	<target name="clean">
+		<delete dir="${mySS.classes}">
+		</delete>
+	</target>
+	<target name="compile" depends="init">
+			<javac srcdir="${mySS.home}/WEB-INF/src" destdir="${mySS.classes}" target="1.5">
+			<classpath refid="all" />
+		</javac>
+	</target>
+	<target name="jar" depends="compile">
+		<jar jarfile="${mySS.jar}/gc.jar" basedir="${mySS.classes}" includes="com/gc/**">
+		</jar>
+	</target>
+	<!--将mySS项目打成war文件-->
+	<target name="war" depends="jar">
+		<war destfile="${mySS.home}/mySS.war" webxml="${mySS.home}/WEB-INF/web.xml">
+			<fileset dir="${mySS.home}" casesensitive="yes">
+				<include name="WEB-INF/**" />
+				<exclude name="*.war" />
+			</fileset>
+			<lib dir="${mySS.home}/WEB-INF/lib">
+				<include name="*.jar" />
+			</lib>
+		</war>
+	</target>
+<target name="test" depends="compile">
+		<junit printsummary="on">
+			<test name="com.gc.junit.TestHibernate"/>
+			<classpath refid="all" />
+			<classpath>				
+				<pathelement location="${mySS.classes}"/>
+				<fileset dir="${mySS.lib}">
+					<include name="**/*.jar" />
+				</fileset>
+				
+				<fileset dir="${mySS.home}/WEB-INF/src">
+					<include name="hibernate.cfg.xml" />
+				</fileset>
+			</classpath>
+			<formatter type="xml"/>
+		</junit>
+	<junitreport >
+	<fileset dir=".">
+	<include name="TEST-*.xml"/>
+	</fileset>
+	<report format="frames" todir="reports/html"/>
+	</junitreport>
+	</target>
+</project>

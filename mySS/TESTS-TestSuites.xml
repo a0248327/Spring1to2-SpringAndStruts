@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="1" failures="0" name="TestHibernate" package="com.gc.junit" tests="1" time="3.844">
+  
+    <properties>
+    
+      <property name="java.vendor" value="Sun Microsystems Inc."></property>
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler"></property>
+
+          <property name="myenv.HIBERNATE_HOME" value="D:\hibernate-3.2"></property>
+
+          <property name="os.name" value="Windows XP"></property>
+
+          <property name="sun.boot.class.path" value="C:\jdk1.5.0\jre\lib\rt.jar;C:\jdk1.5.0\jre\lib\i18n.jar;C:\jdk1.5.0\jre\lib\sunrsasign.jar;C:\jdk1.5.0\jre\lib\jsse.jar;C:\jdk1.5.0\jre\lib\jce.jar;C:\jdk1.5.0\jre\lib\charsets.jar;C:\jdk1.5.0\jre\classes"></property>
+
+          <property name="sun.desktop" value="windows"></property>
+
+          <property name="mySS.home" value="."></property>
+
+          <property name="myenv.LIB" value=";C:\PROGRA~1\IBM\SQLLIB\LIB"></property>
+
+          <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."></property>
+
+          <property name="ant.home" value="d:\eclipse1\plugins\org.apache.ant_1.6.2"></property>
+
+          <property name="java.runtime.version" value="1.5.0-b64"></property>
+
+          <property name="myenv.WINDIR" value="C:\WINDOWS"></property>
+
+          <property name="myenv.TMP" value="C:\DOCUME~1\gc\LOCALS~1\Temp"></property>
+
+          <property name="myenv.JSERV" value="D:\oracle\ora92/Apache/Jserv/conf"></property>
+
+          <property name="mySS.jar" value="./WEB-INF/lib"></property>
+
+          <property name="user.name" value="gc"></property>
+
+          <property name="myenv.SYSTEMDRIVE" value="C:"></property>
+
+          <property name="myenv.DB2INSTANCE" value="DB2"></property>
+
+          <property name="myenv.WV_GATEWAY_CFG" value="D:\oracle\ora92\Apache\modplsql\cfg\wdbsvr.app"></property>
+
+          <property name="myenv.TOMCAT_HOME" value="D:\jakarta-tomcat-5.5.5"></property>
+
+          <property name="myenv.PROGRAMFILES" value="C:\Program Files"></property>
+
+          <property name="user.language" value="zh"></property>
+
+          <property name="myenv.INCLUDE" value="C:\PROGRA~1\IBM\SQLLIB\INCLUDE;C:\PROGRA~1\IBM\SQLLIB\LIB"></property>
+
+          <property name="sun.boot.library.path" value="C:\jdk1.5.0\jre\bin"></property>
+
+          <property name="ant.project.name" value="mySS"></property>
+
+          <property name="java.version" value="1.5.0"></property>
+
+          <property name="user.timezone" value=""></property>
+
+          <property name="myenv.USERPROFILE" value="C:\Documents and Settings\gc"></property>
+
+          <property name="sun.arch.data.model" value="32"></property>
+
+          <property name="ant.file.mySS" value="D:\eclipse1\workspace\mySS\build.xml"></property>
+
+          <property name="java.endorsed.dirs" value="C:\jdk1.5.0\jre\lib\endorsed"></property>
+
+          <property name="sun.cpu.isalist" value=""></property>
+
+          <property name="sun.jnu.encoding" value="GBK"></property>
+
+          <property name="file.encoding.pkg" value="sun.io"></property>
+
+          <property name="file.separator" value="\"></property>
+
+          <property name="java.specification.name" value="Java Platform API Specification"></property>
+
+          <property name="java.class.version" value="49.0"></property>
+
+          <property name="user.country" value="CN"></property>
+
+          <property name="java.home" value="C:\jdk1.5.0\jre"></property>
+
+          <property name="java.vm.info" value="mixed mode, sharing"></property>
+
+          <property name="ant.file" value="D:\eclipse1\workspace\mySS\build.xml"></property>
+
+          <property name="os.version" value="5.1"></property>
+
+          <property name="myenv.SESSIONNAME" value="Console"></property>
+
+          <property name="myenv.COMMONPROGRAMFILES" value="C:\Program Files\Common Files"></property>
+
+          <property name="mySS.classes" value="./WEB-INF/classes"></property>
+
+          <property name="servletpath" value="D:\jakarta-tomcat-5.5.5"></property>
+
+          <property name="path.separator" value=";"></property>
+
+          <property name="java.vm.version" value="1.5.0-b64"></property>
+
+          <property name="myenv.APPDATA" value="C:\Documents and Settings\gc\Application Data"></property>
+
+          <property name="myenv.ANT_HOME" value="d:\eclipse1\plugins\org.apache.ant_1.6.2"></property>
+
+          <property name="user.variant" value=""></property>
+
+          <property name="ant.library.dir" value="d:\eclipse1\plugins\org.apache.ant_1.6.2\lib"></property>
+
+          <property name="myenv.USERDOMAIN" value="GUOFENG"></property>
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"></property>
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle"></property>
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit"></property>
+
+          <property name="myenv.LOGONSERVER" value="\\GUOFENG"></property>
+
+          <property name="myenv.PROCESSOR_IDENTIFIER" value="x86 Family 15 Model 2 Stepping 9, GenuineIntel"></property>
+
+          <property name="user.home" value="C:\Documents and Settings\gc"></property>
+
+          <property name="myenv.PROCESSOR_REVISION" value="0209"></property>
+
+          <property name="myenv.HOMEDRIVE" value="C:"></property>
+
+          <property name="java.specification.vendor" value="Sun Microsystems Inc."></property>
+
+          <property name="myenv.PATH" value="C:\jdk1.5.0\bin;D:\oracle\ora92\bin;C:\Program Files\Oracle\jre\1.3.1\bin;C:\Program Files\Oracle\jre\1.1.8\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\ATI Technologies\ATI Control Panel;C:\Program Files\Microsoft SQL Server\80\Tools\Binn\;C:\PROGRA~1\IBM\SQLLIB\BIN;C:\PROGRA~1\IBM\SQLLIB\FUNCTION;C:\PROGRA~1\IBM\SQLLIB\SAMPLES\REPL;C:\Program Files\JProbe Suite 5.2.3\bin;C:\Program Files\Borland\StarTeam SDK 2005\Lib;C:\Program Files\Borland\StarTeam SDK 2005\Bin;D:\apache-ant-1.6.5\bin;"></property>
+
+          <property name="myenv.LC_ALL" value="ZH_CN"></property>
+
+          <property name="java.library.path" value="d:\eclipse1\plugins\org.eclipse.swt.win32_3.1.0\os\win32\x86"></property>
+
+          <property name="java.vendor.url" value="http://java.sun.com/"></property>
+
+          <property name="myenv.USERNAME" value="gc"></property>
+
+          <property name="java.vm.vendor" value="Sun Microsystems Inc."></property>
+
+          <property name="java.runtime.name" value="Java(TM) 2 Runtime Environment, Standard Edition"></property>
+
+          <property name="java.class.path" value="D:\eclipse1\plugins\org.apache.ant_1.6.2\lib\ant.jar;D:\eclipse1\plugins\org.apache.ant_1.6.2\lib\ant-antlr.jar;D:\eclipse1\plugins\org.apache.ant_1.6.2\lib\ant-apache-bcel.jar;D:\eclipse1\plugins\org.apache.ant_1.6.2\lib\ant-apache-bsf.jar;D:\eclipse1\plugins\org.apache.ant_1.6.2\lib\ant-apache-log4j.jar;D:\eclipse1\plugins\org.apache.ant_1.6.2\lib\ant-apache-oro.jar;D:\eclipse1\plugins\org.apache.ant_1.6.2\lib\ant-apache-regexp.jar;D:\eclipse1\plugins\org.apache.ant_1.6.2\lib\ant-apache-resolver.jar;D:\eclipse1\plugins\org.apache.ant_1.6.2\lib\ant-commons-logging.jar;D:\eclipse1\plugins\org.apache.ant_1.6.2\lib\ant-commons-net.jar;D:\eclipse1\plugins\org.apache.ant_1.6.2\lib\ant-icontract.jar;D:\eclipse1\plugins\org.apache.ant_1.6.2\lib\ant-jai.jar;D:\eclipse1\plugins\org.apache.ant_1.6.2\lib\ant-javamail.jar;D:\eclipse1\plugins\org.apache.ant_1.6.2\lib\ant-jdepend.jar;D:\eclipse1\plugins\org.apache.ant_1.6.2\lib\ant-jmf.jar;D:\eclipse1\plugins\org.apache.ant_1.6.2\lib\ant-jsch.jar;D:\eclipse1\plugins\org.apache.ant_1.6.2\lib\ant-junit.jar;D:\eclipse1\plugins\org.apache.ant_1.6.2\lib\ant-launcher.jar;D:\eclipse1\plugins\org.apache.ant_1.6.2\lib\ant-netrexx.jar;D:\eclipse1\plugins\org.apache.ant_1.6.2\lib\ant-nodeps.jar;D:\eclipse1\plugins\org.apache.ant_1.6.2\lib\ant-starteam.jar;D:\eclipse1\plugins\org.apache.ant_1.6.2\lib\ant-stylebook.jar;D:\eclipse1\plugins\org.apache.ant_1.6.2\lib\ant-swing.jar;D:\eclipse1\plugins\org.apache.ant_1.6.2\lib\ant-trax.jar;D:\eclipse1\plugins\org.apache.ant_1.6.2\lib\ant-vaj.jar;D:\eclipse1\plugins\org.apache.ant_1.6.2\lib\ant-weblogic.jar;D:\eclipse1\plugins\org.apache.ant_1.6.2\lib\ant-xalan1.jar;D:\eclipse1\plugins\org.apache.ant_1.6.2\lib\ant-xslp.jar;D:\eclipse1\plugins\org.eclipse.ant.ui_3.1.0\lib\remoteAnt.jar;C:\jdk1.5.0\lib\tools.jar;D:\apache-ant-1.6.5\lib\junit-3.8.1.jar;D:\eclipse1\plugins\org.eclipse.swt.win32_3.1.0\ws\win32\swt.jar"></property>
+
+          <property name="ant.version" value="Apache Ant version 1.6.2 compiled on July 16 2004"></property>
+
+          <property name="myenv.TEMP" value="C:\DOCUME~1\gc\LOCALS~1\Temp"></property>
+
+          <property name="myenv.SYSTEMROOT" value="C:\WINDOWS"></property>
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification"></property>
+
+          <property name="myenv.PROCESSOR_ARCHITECTURE" value="x86"></property>
+
+          <property name="java.vm.specification.version" value="1.0"></property>
+
+          <property name="sun.os.patch.level" value="Service Pack 2"></property>
+
+          <property name="sun.cpu.endian" value="little"></property>
+
+          <property name="myenv.OS" value="Windows_NT"></property>
+
+          <property name="myenv.CATALINA_HOME" value="D:\jakarta-tomcat-5.5.5"></property>
+
+          <property name="java.io.tmpdir" value="C:\DOCUME~1\gc\LOCALS~1\Temp\"></property>
+
+          <property name="myenv.JAVA_HOME" value="C:\jdk1.5.0"></property>
+
+          <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"></property>
+
+          <property name="myenv.PROCESSOR_LEVEL" value="15"></property>
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"></property>
+
+          <property name="os.arch" value="x86"></property>
+
+          <property name="myenv.FP_NO_HOST_CHECK" value="NO"></property>
+
+          <property name="java.ext.dirs" value="C:\jdk1.5.0\jre\lib\ext"></property>
+
+          <property name="user.dir" value="D:\eclipse1\workspace\mySS"></property>
+
+          <property name="myenv.DB2TEMPDIR" value="C:\DOCUME~1\gc\LOCALS~1\Temp"></property>
+
+          <property name="myenv.COMSPEC" value="C:\WINDOWS\system32\cmd.exe"></property>
+
+          <property name="myenv.STARTEAMAPP" value="C:\Program Files\Borland\StarTeam 2005"></property>
+
+          <property name="myenv.CLASSPATH" value=".;C:\jdk1.5.0\lib\dt.jar;C:\jdk1.5.0\lib\tools.jar;C:\PROGRA~1\IBM\SQLLIB\java\db2java.zip;C:\PROGRA~1\IBM\SQLLIB\java\db2jcc.jar;C:\PROGRA~1\IBM\SQLLIB\java\sqlj.zip;C:\PROGRA~1\IBM\SQLLIB\java\db2jcc_license_cisuz.jar;C:\PROGRA~1\IBM\SQLLIB\java\db2jcc_license_cu.jar;C:\PROGRA~1\IBM\SQLLIB\bin;C:\PROGRA~1\IBM\SQLLIB\java\common.jar;D:\apache-ant-1.6.5\lib\junit-3.8.1.jar"></property>
+
+          <property name="line.separator" value=" "></property>
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM"></property>
+
+          <property name="myenv.ALLUSERSPROFILE" value="C:\Documents and Settings\All Users"></property>
+
+          <property name="mySS.lib" value="./WEB-INF/lib"></property>
+
+          <property name="myenv.NUMBER_OF_PROCESSORS" value="2"></property>
+
+          <property name="myenv.HOMEPATH" value="\Documents and Settings\gc"></property>
+
+          <property name="tomcat.home" value="D\:/jakarta-tomcat-5.5.5"></property>
+
+          <property name="basedir" value="D:\eclipse1\workspace\mySS"></property>
+
+          <property name="ant.java.version" value="1.5"></property>
+
+          <property name="myenv.COMPUTERNAME" value="GUOFENG"></property>
+
+          <property name="file.encoding" value="GBK"></property>
+
+          <property name="myenv.PROMPT" value="$P$G"></property>
+
+          <property name="myenv.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH"></property>
+
+          <property name="java.specification.version" value="1.5"></property>
+
+          <property name="myenv.CLIENTNAME" value="Console"></property>
+
+      </properties>
+
+      <testcase classname="com.gc.junit.TestHibernate" name="testCreate" time="3.046">
+    
+      <error message="Could not find a getter for id in class com.gc.vo.User" type="org.hibernate.PropertyNotFoundException">org.hibernate.PropertyNotFoundException: Could not find a getter for id in class com.gc.vo.User
+	at org.hibernate.property.BasicPropertyAccessor.createGetter(BasicPropertyAccessor.java:282)
+	at org.hibernate.property.BasicPropertyAccessor.getGetter(BasicPropertyAccessor.java:275)
+	at org.hibernate.tuple.PropertyFactory.getGetter(PropertyFactory.java:167)
+	at org.hibernate.tuple.PropertyFactory.buildIdentifierProperty(PropertyFactory.java:44)
+	at org.hibernate.tuple.EntityMetamodel.&lt;init&gt;(EntityMetamodel.java:114)
+	at org.hibernate.persister.entity.AbstractEntityPersister.&lt;init&gt;(AbstractEntityPersister.java:418)
+	at org.hibernate.persister.entity.SingleTableEntityPersister.&lt;init&gt;(SingleTableEntityPersister.java:108)
+	at org.hibernate.persister.PersisterFactory.createClassPersister(PersisterFactory.java:55)
+	at org.hibernate.impl.SessionFactoryImpl.&lt;init&gt;(SessionFactoryImpl.java:223)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1213)
+	at com.gc.junit.TestHibernate.setUp(TestHibernate.java:22)
+	at org.eclipse.ant.internal.ui.antsupport.InternalAntRunner.run(InternalAntRunner.java:403)
+	at org.eclipse.ant.internal.ui.antsupport.InternalAntRunner.main(InternalAntRunner.java:139)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[[DEBUG] 2006-05-31 10:59:04 net.sf.ehcache.CacheManager - Configuring ehcache from classpath.
+[WARN ] 2006-05-31 10:59:04 net.sf.ehcache.config.ConfigurationFactory - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/D:/eclipse1/workspace/mySS/WEB-INF/lib/ehcache-1.2.jar!/ehcache-failsafe.xml
+[DEBUG] 2006-05-31 10:59:04 net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: jar:file:/D:/eclipse1/workspace/mySS/WEB-INF/lib/ehcache-1.2.jar!/ehcache-failsafe.xml
+[DEBUG] 2006-05-31 10:59:04 net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+[DEBUG] 2006-05-31 10:59:04 net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\DOCUME~1\gc\LOCALS~1\Temp\
+[DEBUG] 2006-05-31 10:59:04 net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+[DEBUG] 2006-05-31 10:59:04 net.sf.ehcache.config.ConfigurationHelper - No CachePeerListenerFactoryConfiguration specified. Not configuring a CacheManagerPeerListener.
+[DEBUG] 2006-05-31 10:59:04 net.sf.ehcache.config.ConfigurationHelper - No CachePeerProviderFactoryConfiguration specified. Not configuring a CacheManagerPeerProvider.
+]]></system-out>
+
+      <system-err><![CDATA[java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:204)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:235)
+	at org.apache.tools.ant.AntClassLoader.getResourceURL(AntClassLoader.java:902)
+	at org.apache.tools.ant.AntClassLoader.getResource(AntClassLoader.java:831)
+	at org.apache.log4j.helpers.Loader.getResource(Loader.java:87)
+	at org.apache.log4j.LogManager.<clinit>(LogManager.java:103)
+	at org.apache.log4j.Logger.getLogger(Logger.java:103)
+	at org.apache.commons.logging.impl.Log4JLogger.getLogger(Log4JLogger.java:229)
+	at org.apache.commons.logging.impl.Log4JLogger.<init>(Log4JLogger.java:65)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:494)
+	at org.apache.commons.logging.impl.LogFactoryImpl.newInstance(LogFactoryImpl.java:529)
+	at org.apache.commons.logging.impl.LogFactoryImpl.getInstance(LogFactoryImpl.java:235)
+	at org.apache.commons.logging.impl.LogFactoryImpl.getInstance(LogFactoryImpl.java:209)
+	at org.apache.commons.logging.LogFactory.getLog(LogFactory.java:351)
+	at org.hibernate.cfg.Configuration.<clinit>(Configuration.java:117)
+	at com.gc.junit.TestHibernate.setUp(TestHibernate.java:22)
+	at junit.framework.TestCase.runBare(TestCase.java:125)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:289)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeInVM(JUnitTask.java:1061)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:676)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeOrQueue(JUnitTask.java:1413)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:633)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+	at org.apache.tools.ant.Task.perform(Task.java:364)
+	at org.apache.tools.ant.Target.execute(Target.java:341)
+	at org.apache.tools.ant.Target.performTasks(Target.java:369)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1214)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1062)
+	at org.eclipse.ant.internal.ui.antsupport.InternalAntRunner.run(InternalAntRunner.java:403)
+	at org.eclipse.ant.internal.ui.antsupport.InternalAntRunner.main(InternalAntRunner.java:139)
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:204)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:235)
+	at org.apache.tools.ant.AntClassLoader.getResourceURL(AntClassLoader.java:902)
+	at org.apache.tools.ant.AntClassLoader.getResource(AntClassLoader.java:831)
+	at org.apache.log4j.helpers.Loader.getResource(Loader.java:100)
+	at org.apache.log4j.LogManager.<clinit>(LogManager.java:103)
+	at org.apache.log4j.Logger.getLogger(Logger.java:103)
+	at org.apache.commons.logging.impl.Log4JLogger.getLogger(Log4JLogger.java:229)
+	at org.apache.commons.logging.impl.Log4JLogger.<init>(Log4JLogger.java:65)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:494)
+	at org.apache.commons.logging.impl.LogFactoryImpl.newInstance(LogFactoryImpl.java:529)
+	at org.apache.commons.logging.impl.LogFactoryImpl.getInstance(LogFactoryImpl.java:235)
+	at org.apache.commons.logging.impl.LogFactoryImpl.getInstance(LogFactoryImpl.java:209)
+	at org.apache.commons.logging.LogFactory.getLog(LogFactory.java:351)
+	at org.hibernate.cfg.Configuration.<clinit>(Configuration.java:117)
+	at com.gc.junit.TestHibernate.setUp(TestHibernate.java:22)
+	at junit.framework.TestCase.runBare(TestCase.java:125)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:289)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeInVM(JUnitTask.java:1061)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:676)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeOrQueue(JUnitTask.java:1413)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:633)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+	at org.apache.tools.ant.Task.perform(Task.java:364)
+	at org.apache.tools.ant.Target.execute(Target.java:341)
+	at org.apache.tools.ant.Target.performTasks(Target.java:369)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1214)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1062)
+	at org.eclipse.ant.internal.ui.antsupport.InternalAntRunner.run(InternalAntRunner.java:403)
+	at org.eclipse.ant.internal.ui.antsupport.InternalAntRunner.main(InternalAntRunner.java:139)
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:204)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:235)
+	at org.apache.tools.ant.AntClassLoader.getResourceURL(AntClassLoader.java:902)
+	at org.apache.tools.ant.AntClassLoader.getResource(AntClassLoader.java:831)
+	at org.apache.log4j.helpers.Loader.getResource(Loader.java:87)
+	at org.apache.log4j.LogManager.<clinit>(LogManager.java:105)
+	at org.apache.log4j.Logger.getLogger(Logger.java:103)
+	at org.apache.commons.logging.impl.Log4JLogger.getLogger(Log4JLogger.java:229)
+	at org.apache.commons.logging.impl.Log4JLogger.<init>(Log4JLogger.java:65)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:494)
+	at org.apache.commons.logging.impl.LogFactoryImpl.newInstance(LogFactoryImpl.java:529)
+	at org.apache.commons.logging.impl.LogFactoryImpl.getInstance(LogFactoryImpl.java:235)
+	at org.apache.commons.logging.impl.LogFactoryImpl.getInstance(LogFactoryImpl.java:209)
+	at org.apache.commons.logging.LogFactory.getLog(LogFactory.java:351)
+	at org.hibernate.cfg.Configuration.<clinit>(Configuration.java:117)
+	at com.gc.junit.TestHibernate.setUp(TestHibernate.java:22)
+	at junit.framework.TestCase.runBare(TestCase.java:125)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:289)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeInVM(JUnitTask.java:1061)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:676)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeOrQueue(JUnitTask.java:1413)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:633)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+	at org.apache.tools.ant.Task.perform(Task.java:364)
+	at org.apache.tools.ant.Target.execute(Target.java:341)
+	at org.apache.tools.ant.Target.performTasks(Target.java:369)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1214)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1062)
+	at org.eclipse.ant.internal.ui.antsupport.InternalAntRunner.run(InternalAntRunner.java:403)
+	at org.eclipse.ant.internal.ui.antsupport.InternalAntRunner.main(InternalAntRunner.java:139)
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:204)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:235)
+	at org.apache.tools.ant.AntClassLoader.getResourceURL(AntClassLoader.java:902)
+	at org.apache.tools.ant.AntClassLoader.getResource(AntClassLoader.java:831)
+	at net.sf.ehcache.config.ConfigurationFactory.parseConfiguration(ConfigurationFactory.java:115)
+	at net.sf.ehcache.CacheManager.parseConfiguration(CacheManager.java:236)
+	at net.sf.ehcache.CacheManager.init(CacheManager.java:187)
+	at net.sf.ehcache.CacheManager.<init>(CacheManager.java:180)
+	at org.hibernate.cache.EhCacheProvider.start(EhCacheProvider.java:124)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:180)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1213)
+	at com.gc.junit.TestHibernate.setUp(TestHibernate.java:22)
+	at junit.framework.TestCase.runBare(TestCase.java:125)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:289)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeInVM(JUnitTask.java:1061)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:676)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeOrQueue(JUnitTask.java:1413)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:633)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+	at org.apache.tools.ant.Task.perform(Task.java:364)
+	at org.apache.tools.ant.Target.execute(Target.java:341)
+	at org.apache.tools.ant.Target.performTasks(Target.java:369)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1214)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1062)
+	at org.eclipse.ant.internal.ui.antsupport.InternalAntRunner.run(InternalAntRunner.java:403)
+	at org.eclipse.ant.internal.ui.antsupport.InternalAntRunner.main(InternalAntRunner.java:139)
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:204)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:235)
+	at org.apache.tools.ant.AntClassLoader.getResourceURL(AntClassLoader.java:902)
+	at org.apache.tools.ant.AntClassLoader.getResource(AntClassLoader.java:831)
+	at java.lang.Class.getResource(Class.java:2042)
+	at net.sf.ehcache.config.ConfigurationFactory.parseConfiguration(ConfigurationFactory.java:118)
+	at net.sf.ehcache.CacheManager.parseConfiguration(CacheManager.java:236)
+	at net.sf.ehcache.CacheManager.init(CacheManager.java:187)
+	at net.sf.ehcache.CacheManager.<init>(CacheManager.java:180)
+	at org.hibernate.cache.EhCacheProvider.start(EhCacheProvider.java:124)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:180)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1213)
+	at com.gc.junit.TestHibernate.setUp(TestHibernate.java:22)
+	at junit.framework.TestCase.runBare(TestCase.java:125)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:289)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeInVM(JUnitTask.java:1061)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:676)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeOrQueue(JUnitTask.java:1413)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:633)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+	at org.apache.tools.ant.Task.perform(Task.java:364)
+	at org.apache.tools.ant.Target.execute(Target.java:341)
+	at org.apache.tools.ant.Target.performTasks(Target.java:369)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1214)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1062)
+	at org.eclipse.ant.internal.ui.antsupport.InternalAntRunner.run(InternalAntRunner.java:403)
+	at org.eclipse.ant.internal.ui.antsupport.InternalAntRunner.main(InternalAntRunner.java:139)
+]]></system-err>
+
+  </testsuite>
+</testsuites>

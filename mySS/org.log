@@ -1,0 +1,24 @@
+2006-05-23 16:25:02,562 - [ERROR] [DTDEntityResolver] - Don't use old DTDs, read the Hibernate 3.x Migration Guide!
+2006-05-23 16:25:04,500 - [ERROR] [XMLHelper$ErrorLogger] - Error parsing XML: /hibernate.cfg.xml(6) The element type "session-factory" must be terminated by the matching end-tag "</session-factory>".
+2006-05-23 16:26:38,421 - [ERROR] [XMLHelper$ErrorLogger] - Error parsing XML: /hibernate.cfg.xml(6) The element type "session-factory" must be terminated by the matching end-tag "</session-factory>".
+2006-05-23 16:27:07,796 - [ERROR] [DTDEntityResolver] - Don't use old DTDs, read the Hibernate 3.x Migration Guide!
+2006-05-23 16:27:57,093 - [ERROR] [JDBCExceptionReporter] - Column 'password' cannot be null
+2006-05-23 16:27:57,093 - [ERROR] [AbstractFlushingEventListener] - Could not synchronize database state with session
+org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update
+	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:71)
+	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:43)
+	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:249)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:235)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:139)
+	at org.hibernate.event.def.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:297)
+	at org.hibernate.event.def.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:27)
+	at org.hibernate.impl.SessionImpl.flush(SessionImpl.java:993)
+	at org.hibernate.impl.SessionImpl.managedFlush(SessionImpl.java:340)
+	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:106)
+	at com.gc.test.TestHibernate.main(TestHibernate.java:24)
+Caused by: java.sql.BatchUpdateException: Column 'password' cannot be null
+	at com.mysql.jdbc.ServerPreparedStatement.executeBatch(ServerPreparedStatement.java:656)
+	at org.hibernate.jdbc.BatchingBatcher.doExecuteBatch(BatchingBatcher.java:58)
+	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:242)
+	... 8 more
+2006-05-30 08:59:22,593 - [ERROR] [DTDEntityResolver] - Don't use old DTDs, read the Hibernate 3.x Migration Guide!

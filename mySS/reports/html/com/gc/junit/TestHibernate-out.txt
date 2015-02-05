@@ -1,0 +1,8 @@
+[DEBUG] 2006-05-31 10:59:04 net.sf.ehcache.CacheManager - Configuring ehcache from classpath.
+[WARN ] 2006-05-31 10:59:04 net.sf.ehcache.config.ConfigurationFactory - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/D:/eclipse1/workspace/mySS/WEB-INF/lib/ehcache-1.2.jar!/ehcache-failsafe.xml
+[DEBUG] 2006-05-31 10:59:04 net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: jar:file:/D:/eclipse1/workspace/mySS/WEB-INF/lib/ehcache-1.2.jar!/ehcache-failsafe.xml
+[DEBUG] 2006-05-31 10:59:04 net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+[DEBUG] 2006-05-31 10:59:04 net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\DOCUME~1\gc\LOCALS~1\Temp\
+[DEBUG] 2006-05-31 10:59:04 net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+[DEBUG] 2006-05-31 10:59:04 net.sf.ehcache.config.ConfigurationHelper - No CachePeerListenerFactoryConfiguration specified. Not configuring a CacheManagerPeerListener.
+[DEBUG] 2006-05-31 10:59:04 net.sf.ehcache.config.ConfigurationHelper - No CachePeerProviderFactoryConfiguration specified. Not configuring a CacheManagerPeerProvider.
